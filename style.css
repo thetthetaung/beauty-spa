@@ -83,6 +83,9 @@ body{
 .footer i{
     color:#053d07;
 }
+.footer i:hover{
+    color:#338b36;
+}
 
 .footer-list{
     margin:20px;
@@ -108,7 +111,7 @@ body{
 /* About Page */
 .member-container{
     position: relative;
-    width: 50%;
+    width: 20%;
     margin:10px;
     display: inline;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -144,4 +147,35 @@ body{
     color: white;
     font-size: 16px;
     /*padding: 16px 32px;*/
+  }
+
+  /* Contact Page */
+  input[type=text],select{
+    width: 100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    /*border:1px solid #ccc;*/
+    border-bottom: 2px solid rgb(139, 220, 147);
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:#241b57;
+  }
+  input[type=submit]{
+    width: 100%;
+    background-color: #338b36;
+    color:white;
+    padding:14px 20px;
+    margin:8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=text]:hover{
+    background-color: #ecf4ed;
+  }
+  input[type=text]:focus{
+    background-color: #d7eeda;
+    color:#241b57;
+    border: 1px solid #ccc;
   }
